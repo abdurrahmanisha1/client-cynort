@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    /* comon */
+    --center: center;
+
+    /* coursor */
+    --pointer: pointer;
+
+    /* color */
+    --crimson: crimson;
+    --white: white;
+    --black: black;
+    --deeppink: deeppink;
+    --yellow: yellow;
+    --red: red;
+    --indigo: indigo;
+    --gray: gray;
+
+    /* font style */
+    --bold: bold;
+
+    /* transition */
+    --transition0: 0.5s;
+    --transition1: 1s;
+
+    /* display */
+    --flex: flex;
+    --wrap: wrap;
+    --block: block;
+    --space-between: space-between;
+
+    /* position */
+    --absolute: absolute;
+    --relative: relative;
+    --fixed: fixed;
+}
+
+
+/* ##############################
+------->  Header Section <---
+###############################*/
+
+header {
+    position: var(--fixed);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 200px;
+    z-index: 10000;
+    display: var(--flex);
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background: var(--white);
+}
+
+header .logo {
+    font-weight: bold;
+    color: var(--crimson);
+    font-size: 20px;
+    font-family: cursive;
+    display: var(--flex);
+}
+
+header .logo img {
+    height: 70px;
+}
+
+header .logo h2 {
+    padding-top: 16px;
+    animation: color-hue 40s ease-in-out infinite;
+}
+
+header ul {
+    position: var(--relative);
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+header ul li a {
+    color: var(--black);
+    font-weight: var(--bold);
+}
+
+header ul li a:hover {
+    color: var(--crimson);
+    transition: var(--transition0);
+}
+
+.sticky {
+    background: var(--white);
+}
+
+.sticky a {
+    color: var(--black);
+}
+
+
+.bg-img{
+    height: 70vh;
+    width: 100%;
+    background: url(image/bg.jpg);
+    background-position: 46% 53%;
+    background-size: contain;
+    background-repeat: repeat;
+}
+.bg-img .bg-color{
+    height: 70vh;
+    width: 100%;
+    background: rgba(5, 106, 63, 0.67);
+}
+.bg-img .bg-color h1{
+    color: white;
+    padding-top: 200px;
+}
+.bg-img .bg-color p{
+    color: white;
+}
+
+/* -------------------------- */
+/* -------------------------- */
+/* -------------------------- */
+.border1{
+    border: 2px solid #006D3E;
+    width: 10px !important;
+}
+.border1 i{
+    border: 2px solid #006D3E;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}

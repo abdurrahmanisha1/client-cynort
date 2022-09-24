@@ -1,0 +1,79 @@
+@keyframes logo {
+
+    0%,
+    100% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-10deg);
+    }
+}
+
+@keyframes btn1 {
+
+    0%,
+    100% {
+        background: linear-gradient(var(--crimson), var(--black), var(--crimson));
+        filter: hue-rotate(360deg);
+    }
+
+    50% {
+        /* background: linear-gradient(var(--deeppink), var(--black), var(--deeppink)); */
+        filter: hue-rotate(0deg);
+    }
+}
+
+@keyframes color-hue {
+
+    0%,
+    100% {
+        filter: hue-rotate(360deg);
+    }
+
+    50% {
+        filter: hue-rotate(0deg);
+    }
+}
+
+@keyframes calender {
+
+    0%,
+    100% {
+        filter: hue-rotate(360deg);
+        transform: rotate(3deg);
+    }
+
+    50% {
+        filter: hue-rotate(0deg);
+        transform: rotate(-3deg);
+    }
+}
+
+@keyframes calender-before {
+
+    0%,
+    100% {
+        filter: hue-rotate(360deg);
+        transform: translate(-250px, -120px);
+    }
+
+    50% {
+        filter: hue-rotate(0deg);
+        transform: translate(-230px, -100px);
+    }
+}
+
+@keyframes calender-after {
+
+    0%,
+    100% {
+        filter: hue-rotate(360deg);
+        transform: translate(250px, 160px);
+    }
+
+    50% {
+        filter: hue-rotate(0deg);
+        transform: translate(230px, 140px);
+    }
+}
