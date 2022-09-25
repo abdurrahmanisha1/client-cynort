@@ -5888,3 +5888,13 @@ div#particles {
 div#particles .slider3 {
     background-image: inherit;
 }
+
+
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+
+.borderr {
+    border-top: 5px solid #43BAFF;
+    margin-top: 40px;
+}
