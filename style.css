@@ -5914,3 +5914,7 @@ div#particles .slider3 {
     height: 100%;
     width: 110%;
 }
+
+.single_feature_title h4{
+    font-size: 18px !important;
+}
