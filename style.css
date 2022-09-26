@@ -5922,4 +5922,5 @@ div#particles .slider3 {
 .imggg {
     height: 50px;
     margin-top: -90px;
+    overflow: hidden;
 }
