@@ -230,9 +230,12 @@ a.meanmenu-reveal {
 .mean-container .mean-bar::before {
   color: #fff;
   content: "Cynort";
+  /* content: ""; */
   font-size: 22px;
   font-weight: 800;
   left: 10px;
   position: absolute;
   top: 18px;
+  /* background: url(assets/images/logo-white.png); */
+  /* height: 100px; */
 }
