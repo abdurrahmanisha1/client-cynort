@@ -1,20 +1,20 @@
-(function($) {
+(function ($) {
     'use strict';
-	
-	// Mobile Menu
+
+    // Mobile Menu
     $('.mobile-menu nav').meanmenu({
         meanScreenWidth: "990",
         meanMenuContainer: ".mobile-menu",
         onePage: false,
-    });	
+    });
 
     // Loder  /
     $(function () {
-      $('body').addClass('loaded');
+        $('body').addClass('loaded');
     });
 
 
-	 // Slider Active
+    // Slider Active
     $('.slider_list').owlCarousel({
         loop: true,
         autoplay: true,
@@ -39,24 +39,24 @@
                 items: 1
             }
         }
-    })	
+    })
 
-	//Header Search
-	if($('.search-box-outer').length) {
-		$('.search-box-outer').on('click', function() {
-			$('body').addClass('search-active');
-		});
-		$('.close-search').on('click', function() {
-			$('body').removeClass('search-active');
-		});
-	}
-	
-	/*---------------------
+    //Header Search
+    if ($('.search-box-outer').length) {
+        $('.search-box-outer').on('click', function () {
+            $('body').addClass('search-active');
+        });
+        $('.close-search').on('click', function () {
+            $('body').removeClass('search-active');
+        });
+    }
+
+    /*---------------------
     WOW active js 
     --------------------- */
     new WOW().init();
-	
-	/*---------------------
+
+    /*---------------------
     Nivo Slider active js 
     --------------------- */
     $('#mainSlider').nivoSlider({
@@ -74,20 +74,20 @@
         delay: 10,
         time: 1000
     });
-	// sticky
-	var wind = $(window);
-	var sticky = $('#sticky-header');
-	wind.on('scroll', function () {
-		var scroll = wind.scrollTop();
-		if (scroll < 100) {
-			sticky.removeClass('sticky');
-		} else {
-			sticky.addClass('sticky');
-		}
-	});
-	
+    // sticky
+    var wind = $(window);
+    var sticky = $('#sticky-header');
+    wind.on('scroll', function () {
+        var scroll = wind.scrollTop();
+        if (scroll < 100) {
+            sticky.removeClass('sticky');
+        } else {
+            sticky.addClass('sticky');
+        }
+    });
+
     /* Portfolio Isotope  */
-    $('.image_load').imagesLoaded(function() {
+    $('.image_load').imagesLoaded(function () {
 
         if ($.fn.isotope) {
 
@@ -106,7 +106,7 @@
                 transitionDuration: '0.8s'
 
             });
-            $('.menu-filtering li').on('click', function() {
+            $('.menu-filtering li').on('click', function () {
 
                 $('.menu-filtering li').removeClass('current_menu_item');
 
@@ -125,8 +125,8 @@
         };
 
     });
-	
-		    // Venubox
+
+    // Venubox
 
     $('.venobox').venobox({
 
@@ -135,8 +135,8 @@
         infinigall: true
 
     });
-	
-	 // Case Study Active
+
+    // Case Study Active
     $('.case_study_list').owlCarousel({
         loop: true,
         autoplay: true,
@@ -161,9 +161,9 @@
                 items: 5
             }
         }
-    })	
-	
- // Testimonial Active
+    })
+
+    // Testimonial Active
     $('.testimonial_list').owlCarousel({
         loop: true,
         autoplay: true,
@@ -188,9 +188,9 @@
                 items: 1
             }
         }
-    })	
-	
-	 // Testimonial Active
+    })
+
+    // Testimonial Active
     $('.testimonial_list2').owlCarousel({
         loop: true,
         autoplay: true,
@@ -215,10 +215,10 @@
                 items: 3
             }
         }
-    })	
-	
-	
- // Brand Active
+    })
+
+
+    // Brand Active
     $('.brand_list').owlCarousel({
         loop: true,
         autoplay: true,
@@ -245,7 +245,7 @@
         }
     })
 
-	/*--------------------------
+    /*--------------------------
      scrollUp
     ---------------------------- */
     $.scrollUp({
