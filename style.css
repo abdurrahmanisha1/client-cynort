@@ -5905,21 +5905,22 @@ div#particles .slider3 {
 /* ----------------------------------- */
 
 
-.header_middle_menu_logo img{
+.header_middle_menu_logo img {
     height: 90%;
     width: 90%;
 }
 
-.main_sticky img{
+.main_sticky img {
     height: 90%;
     width: 90%;
 }
 
-.single_feature_title h4{
+.single_feature_title h4 {
     font-size: 18px !important;
 }
 
-.imggg{
+.imggg {
     height: 50px;
-    margin-top: -100px;
+    margin-top: -90px;
+    overflow: hidden;
 }
